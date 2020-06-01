@@ -60,8 +60,8 @@
                             <constraint firstItem="7qE-aB-BYV" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Sgm-xn-68c"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ebv-Xb-fYj" secondAttribute="trailing" constant="113" id="WAB-eU-2ou"/>
                             <constraint firstItem="ebv-Xb-fYj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="ck4-12-kCD"/>
+                            <constraint firstItem="xPN-Hh-Zk6" firstAttribute="top" secondItem="7qE-aB-BYV" secondAttribute="bottom" constant="52" id="fZc-g7-w1D"/>
                             <constraint firstItem="xPN-Hh-Zk6" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="j3a-1C-ayO"/>
-                            <constraint firstItem="LWQ-ZQ-Xie" firstAttribute="top" secondItem="xPN-Hh-Zk6" secondAttribute="bottom" constant="23" id="uqd-nJ-MXn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

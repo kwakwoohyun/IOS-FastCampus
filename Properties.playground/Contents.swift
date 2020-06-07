@@ -9,8 +9,24 @@ import UIKit
 
 struct Person {
 //    stored properties : 저장되어있는 프로퍼티, 실무에서는 let으로 사용한다. 값을 바뀌지 않게하기위해
-    var firstName: String
+//    obsevation : 값이 변경되는것을 보여줄수 있는 방법
+    var firstName: String {
+        willSet {
+            print("willSet : \(firstName)--->\(newValue)")
+        }
+        didSet {
+            print("didSet : \(oldValue)--->\(firstName)")
+        }
+    }
     var lastName: String
+//    lazy : 나중에 사용할 수도 있는? 프로퍼티
+    lazy var isPopular: Bool = {
+        if fullName == "Jay Park" {
+            return true
+        } else {
+            return false
+        }
+    }()
     
 //    computed properties : 값이 정해져있지않고 가공해서 어떤 값을 만드는 프로퍼티 (연산 프로퍼티)
     var fullName: String {
@@ -46,3 +62,5 @@ print(person.fullName)
 person.fullName = "Jay Park"
 print(person.fullName)
 print(person.firstName, person.lastName)
+
+print(person.isPopular)

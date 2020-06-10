@@ -12,7 +12,7 @@ import UIKit
         2. 간편 initialize
             지정 initialize는 자신의 부모 클래스의 지정 initialize를 호출해야한다.
             간편 initialize는 같은 클래스의 initialize를 꼭 하나 호출해야한다.
-            간편 initialize는 궁극적으로 지정 initialize를 호출해야한다. 
+            간편 initialize는 궁극적으로 지정 initialize를 호출해야한다.
  */
 
 struct Grade {

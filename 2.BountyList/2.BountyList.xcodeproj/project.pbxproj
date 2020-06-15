@@ -14,6 +14,7 @@
 		CD03447C249122860044D776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD03447A249122860044D776 /* LaunchScreen.storyboard */; };
 		CD0344842491238B0044D776 /* BountyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0344832491238B0044D776 /* BountyViewController.swift */; };
 		CD0344862491264C0044D776 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CD0344852491264C0044D776 /* .gitignore */; };
+		CDB1D94D249794CE00C537E0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB1D94C249794CE00C537E0 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CD03447D249122860044D776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD0344832491238B0044D776 /* BountyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyViewController.swift; sourceTree = "<group>"; };
 		CD0344852491264C0044D776 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CDB1D94C249794CE00C537E0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				CD03446F249122830044D776 /* AppDelegate.swift */,
 				CD034471249122830044D776 /* SceneDelegate.swift */,
 				CD034475249122830044D776 /* Main.storyboard */,
+				CDB1D94C249794CE00C537E0 /* DetailViewController.swift */,
 				CD0344832491238B0044D776 /* BountyViewController.swift */,
 				CD034478249122860044D776 /* Assets.xcassets */,
 				CD03447A249122860044D776 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				CD034470249122830044D776 /* AppDelegate.swift in Sources */,
 				CD0344842491238B0044D776 /* BountyViewController.swift in Sources */,
 				CD034472249122830044D776 /* SceneDelegate.swift in Sources */,
+				CDB1D94D249794CE00C537E0 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8WLZ64F984;
 				INFOPLIST_FILE = 2.BountyList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8WLZ64F984;
 				INFOPLIST_FILE = 2.BountyList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
